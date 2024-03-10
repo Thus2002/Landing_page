@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #c6e1ed;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#order {
+    text-align: center;
+    padding: 50px;
+    background-color: #e2b7e4;
+}
+
+#order h2 {
+    margin-bottom: 20px;
+}
+
+#order input,
+#order button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#order input[type="text"],
+#order input[type="email"],
+#order input[type="number"] {
+    width: 200px;
+}
+
+#order button {
+    background-color: #ff7b00;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
